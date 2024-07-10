@@ -1,0 +1,185 @@
+Script started on 2024-07-10 17:38:58+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="149" LINES="11"]
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ DatabasePeople[K[K[K[K[K[K[K[K[K[K[K[K[K[Kg++ People[K[K[K[K[Kroject8.cpp People.cpp PeopleDB.cpp Date.cpp PrecondViolatedExcep.cpp NotFoundException.cpp -o Datb ase[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca basePeople
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ ./DatabasePeople [K
+Welcome to the People database system.
+Please enter the file that contains the initial people list: studentF DB1.txt
+5
+The initial database built from the input file is displayed by its original order:
+Jason 8 6 1992
+Alice 6 2 1990
+Cat 12 2 1999
+Mary 4 5 1993
+John 7 4 1995
+Joe 1 10 1998
+Jim 8 4 2000
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->1
+To add, enter name and birthday (month day year):
+Wendy 8 8 1989
+Add another one? y
+To add, enter name and birthday (month day year):
+Ken 4 14 1987
+Add another one? y
+To add, enter name and birthday (month day year):
+Apple 8 7 1956
+Add another one? N
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->5
+
+Jason 8 6 1992
+Alice 6 2 1990
+Cat 12 2 1999
+Apple 8 7 1956
+Mary 4 5 1993
+John 7 4 1995
+Joe 1 10 1998
+Jim 8 4 2000
+Ken 4 14 1987
+Wendy 8 8 1989
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->2
+To remove, enter name and birthday:
+James 1 3 1987
+Cannot find this person.
+Remove another one? Y
+To remove, enter name and birthday:
+Mary 4 5 1993
+This person has been removed.
+Remove another one? n
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->5
+
+Jason 8 6 1992
+Alice 6 2 1990
+Cat 12 2 1999
+Apple 8 7 1956
+Wendy 8 8 1989
+John 7 4 1995
+Joe 1 10 1998
+Jim 8 4 2000
+Ken 4 14 1987
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->3
+To modify, enter name and birthday:
+Jim 8 4 2000  
+Found this person in the database. This person's data has been removed.
+Enter this person's new information: name and birthday (month day year):
+James 8 4 2000  
+The database has been modified.
+Continue to modify? n
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->5
+
+Jason 8 6 1992
+Alice 6 2 1990
+Cat 12 2 1999
+Apple 8 7 1956
+James 8 4 2000
+Wendy 8 8 1989
+John 7 4 1995
+Joe 1 10 1998
+Ken 4 14 1987
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->4
+To search, enter name and birthday:
+Jim 8 4 2000
+Cannot find.
+Continue another search? y
+To search, enter name and birthday:
+James 8 4 2000
+Found the person in the database:
+James 8 4 2000
+Continue another search? N
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->6
+
+Alice 6 2 1990
+Apple 8 7 1956
+Cat 12 2 1999
+James 8 4 2000
+Jason 8 6 1992
+Joe 1 10 1998
+John 7 4 1995
+Ken 4 14 1987
+Wendy 8 8 1989
+
+Please enter your option
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->7
+
+The updated database has been saved to "SCSU_DB2.txt".
+Bye!
+[0;32m@Vaidehiyer [0m➜ [1;34m/workspaces/codespaces-blank [0m$ exit
+
+Script done on 2024-07-10 17:43:32+00:00 [COMMAND_EXIT_CODE="0"]
